@@ -59,7 +59,7 @@
             邮箱:
             <input type="text" name="user_email" style="width: 100px;" value="<?php echo I('request.user_email/s','');?>" placeholder="请输入<?php echo L('EMAIL');?>">
             <input type="submit" class="btn btn-primary" value="搜索" />
-            <a class="btn btn-danger" href="<?php echo U('User/index');?>">清空1</a>
+            <a class="btn btn-danger" href="<?php echo U('User/index');?>">清空</a>
         </form>
 		<table class="table table-hover table-bordered">
 			<thead>

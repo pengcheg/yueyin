@@ -1,0 +1,6 @@
+[ 2017-05-10T00:14:32+08:00 ] ::1 /index.php?g=Student&m=User&a=Index
+ERR: 无法加载控制器:User
+
+[ 2017-05-10T00:15:35+08:00 ] ::1 /index.php?g=Student&m=User&a=Index
+ERR: 无法加载控制器:User
+

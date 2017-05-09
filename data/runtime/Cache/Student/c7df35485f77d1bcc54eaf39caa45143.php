@@ -58,7 +58,7 @@
 			关键字： 
 			<input type="text" name="keyword" style="width: 200px;" value="<?php echo I('request.keyword');?>" placeholder="用户名/昵称/邮箱">
 			<input type="submit" class="btn btn-primary" value="搜索" />
-			<a class="btn btn-danger" href="<?php echo U('Indexadmin/index');?>">清空</a>
+			<a class="btn btn-danger" href="<?php echo U('Indexadmin/index');?>">清空1</a>
 		</form>
 		<form method="post" class="js-ajax-form">
 			<table class="table table-hover table-bordered">

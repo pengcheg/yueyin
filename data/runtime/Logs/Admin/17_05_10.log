@@ -1,0 +1,345 @@
+[ 2017-05-10T00:02:57+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:03:14+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000680s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000472s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0019s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Student' AND `model` = 'Admin/User/index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Student',`model`='Admin/User/index',`action`='index',`data`='g=Student&amp;m=Index&amp;a=index',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'student/admin/user/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `id` FROM `cmf_auth_rule` WHERE `name` = 'student/indexadmin/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='student/admin/user/index/index',`module`='Student',`type`='admin_url',`title`='学生管理' WHERE `id` = 174 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Student' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0004s ]
+NOTIC: [2] mkdir(): File exists /Applications/MAMP/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-05-10T00:03:14+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:03:22+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000466s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000542s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0016s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Student' AND `model` = 'Admin/User/index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Student',`model`='Admin/User/index',`action`='index',`data`='g=Student&amp;m=Index&amp;a=index',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'student/admin/user/index/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='student/admin/user/index/index',`module`='Student',`type`='admin_url',`title`='学生管理' WHERE `name` = 'student/admin/user/index/index' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Student' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0003s ]
+NOTIC: [2] mkdir(): File exists /Applications/MAMP/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-05-10T00:03:22+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:03:24+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:07+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:14+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000861s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000583s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Student' AND `model` = 'index' AND `action` = 'index' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Student',`model`='index',`action`='index',`data`='g=Student&amp;m=Index&amp;a=index',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'student/index/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `cmf_auth_rule` WHERE `name` = 'student/admin/user/index/index' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='student/index/index',`module`='Student',`type`='admin_url',`title`='学生管理' WHERE `id` = 174 [ RunTime:0.0002s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Student' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0003s ]
+NOTIC: [2] mkdir(): File exists /Applications/MAMP/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-05-10T00:04:14+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:16+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:28+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:41+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000457s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000434s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Student' AND `model` = 'user' AND `action` = 'index' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Student',`model`='user',`action`='index',`data`='g=Student&amp;m=Index&amp;a=index',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'student/user/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id` FROM `cmf_auth_rule` WHERE `name` = 'student/index/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='student/user/index',`module`='Student',`type`='admin_url',`title`='学生管理' WHERE `id` = 174 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Student' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0004s ]
+NOTIC: [2] mkdir(): File exists /Applications/MAMP/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-05-10T00:04:41+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:42+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:04:59+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:05:09+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000543s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000450s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Student' AND `model` = 'User' AND `action` = 'Index' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Student',`model`='User',`action`='Index',`data`='g=Student&amp;m=Index&amp;a=index',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'student/user/index' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='student/user/index',`module`='Student',`type`='admin_url',`title`='学生管理' WHERE `name` = 'student/user/index' [ RunTime:0.0012s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Student' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0006s ]
+NOTIC: [2] mkdir(): File exists /Applications/MAMP/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-05-10T00:05:09+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:05:21+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:05:22+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:06:16+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:06:28+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:06:37+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=149&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:06:44+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:13:33+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:13:55+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:13:58+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:14:03+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000483s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000440s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Student' AND `model` = 'User' AND `action` = 'Index' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Student',`model`='User',`action`='Index',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'student/user/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='student/user/index',`module`='Student',`type`='admin_url',`title`='学生管理' WHERE `name` = 'student/user/index' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Student' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0004s ]
+NOTIC: [2] mkdir(): File exists /Applications/MAMP/htdocs/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-05-10T00:14:03+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:15:07+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:15:08+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:15:15+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:15:34+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000749s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002408s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000538s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0015s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'Student' AND `action` = 'Index' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `cmf_menu` SET `parentid`='0',`name`='学生管理',`app`='Admin',`model`='Student',`action`='Index',`data`='',`icon`='',`remark`='',`status`='1',`type`='1' WHERE `id` = 187 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cmf_auth_rule` WHERE `name` = 'admin/student/index' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `id` FROM `cmf_auth_rule` WHERE `name` = 'student/user/index' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cmf_auth_rule` SET `name`='admin/student/index',`module`='Admin',`type`='admin_url',`title`='学生管理' WHERE `id` = 174 [ RunTime:0.0003s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0014s ]
+
+[ 2017-05-10T00:15:34+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:16:47+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:20:22+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:27:36+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:30:54+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:30:59+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:31:04+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:31:16+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000479s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001454s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000443s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0016s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'User' AND `action` = 'Index' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-10T00:32:01+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:32:06+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:32:14+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=187&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:32:22+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000479s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000675s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `cmf_users` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `cmf_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cmf_menu` [ RunTime:0.0014s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `cmf_auth_rule` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cmf_menu` WHERE `id` = 187 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `cmf_menu` WHERE `app` = 'Admin' AND `model` = 'User' AND `action` = 'Index' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-10T00:32:35+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:34:23+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:34:33+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=85&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:34:38+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:34:59+08:00 ] ::1 /index.php?g=Admin&m=Menu&a=edit&id=149&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:35:20+08:00 ] ::1 /index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-05-10T00:35:33+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:37:26+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:37:28+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:37:28+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
+[ 2017-05-10T00:37:29+08:00 ] ::1 /index.php?g=Admin&m=Student&a=Index
+ERR: 无法加载控制器:Student
+
